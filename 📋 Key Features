@@ -1,0 +1,10 @@
+
+STX Tipping System: Enables secure STX transfers between wallets.
+
+VIP User Logic: Automatically grants "VIP" status to users who cross a cumulative threshold of 10 STX.
+
+On-Chain Analytics: Tracks the number of transactions and the total amount contributed by each unique address.
+
+Circuit Breaker (Emergency Stop): The contract owner can pause the contract for maintenance or in case of an emergency.
+
+Frontend-Optimized: Includes read-only functions that return complete user profiles in a single call, reducing latency.
