@@ -1,0 +1,6 @@
+
+This contract is "Frontend-Ready." By utilizing the user maps, you can easily personalize your dApp:
+
+If vip is true: Unlock exclusive content or "Premium" visual themes.
+
+Tip Tracker: Show users exactly how much they have supported the project in real-time by querying get-user-info.
