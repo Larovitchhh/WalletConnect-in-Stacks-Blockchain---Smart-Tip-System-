@@ -1,0 +1,19 @@
+
+1. State & Variables
+owner-address: Stores the principal of the contract creator (Administrator).
+
+contract-paused: A boolean flag that controls whether public functions are active.
+
+user-data: A map storing historical records (count and total amount) for every interacting wallet.
+
+vips: A boolean map for high-speed lookup of VIP status.
+
+2. Public Functions (Write)
+send-tip: The core function. It takes a recipient and an amount. It validates the contract state, executes the STX transfer, updates user maps, and checks if the sender has reached VIP status.
+
+toggle-pause: A security function restricted to the contract owner to enable or disable operations.
+
+3. Read-Only Functions (Getters)
+get-user-info: Returns a JSON-like object with user statistics and VIP status. Perfect for displaying "badges" in the UI.
+
+get-global-stats: Returns the total volume handled by the contract and its current operational status.
