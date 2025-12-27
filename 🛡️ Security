@@ -1,0 +1,6 @@
+
+Authorization: Only the original owner can pause the contract.
+
+Amount Validation: Prevents 0 STX transfers to avoid transaction history spam.
+
+Clarity 2.0: Leverages the latest language safety features to prevent common smart contract vulnerabilities.
